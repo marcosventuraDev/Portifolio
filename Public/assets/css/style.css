@@ -1,6 +1,9 @@
 body{
     position: relative;
 }
+section{
+    margin: 0 0 20px 0;
+  }
 /**********************************
         FORMATAÇÃO NAV
 **********************************/
@@ -29,7 +32,7 @@ nav ul li a{
     text-decoration: none;
     list-style: none;
     margin-right: 20px;
-    color: white;
+    color: whiteçgit ;
 }
 
 nav ul li a:hover{
@@ -78,6 +81,9 @@ nav ul li a:hover{
    text-shadow: 2px 2px 2px #212529;
 
 }
+/**********************************
+             BUTONS
+**********************************/
 
 .btn-second{
     background-color:#ab8e62;
@@ -92,6 +98,9 @@ nav ul li a:hover{
     
 }
 
+/**********************************
+        FORMATAÇÃO DISPOSITIVOS MÓVEIS
+**********************************/
   @media only screen and (max-width: 1205px){
     .text-banner{
         margin-left: 20px  ;
@@ -121,11 +130,11 @@ nav ul li a:hover{
     }
   }
 
-  section{
-    margin: 0 0 20px 0;
-  }
+ 
 
-
+/**********************************
+        FANPAGE / FOOTER
+**********************************/
   .fanpage {
 
     width: 400px;
@@ -149,6 +158,10 @@ footer{
     background: black;
     padding: 30px;
 }
+
+/**********************************
+            ARROW UP
+**********************************/
 .arrowUp{
     display: flex;
     justify-content: center;
