@@ -1,23 +1,40 @@
-
+body{
+    position: relative;
+}
 /**********************************
         FORMATAÇÃO NAV
 **********************************/
 nav{
     right: 4em;
+   
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50px;
+    
+        
 }
 nav ul{
+    position: relative;
     display: flex;
     flex-direction: row;
+    margin-top: 10px;
+  
 }
 nav ul li{
     
-    text-decoration: none;
     list-style: none;
     margin-right: 20px;
 }
-nav ul li:hover{
+nav ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+}
+
+nav ul li a:hover{
     text-decoration: underline;
-    color: orange;
+    color: #ab8e62;
     cursor: pointer;
 }
 
@@ -28,22 +45,19 @@ nav ul li:hover{
    text-align: center;
    display: flex;
    align-items: center;
-    border-top: 1px solid orange;
+    border-top: 1px solid #ab8e62;
     height: 75vh; 
     position: relative;
     transition: .5s;
-    margin-bottom: 2em;
-    
-   
+    margin-bottom: 2em;   
 }
 .bannerCaption{
     transition: .3s;
     background: url("../img/Eu-removebg-preview.png") no-repeat center;
     background-size: cover;
-    border: 5px solid white;
+    border: 5px solid #ab8e62;
     width: 300px;
     height: 300px;
-    background-color: orange;
     border-radius: 50%;
     margin: 20px;
     display: none;    
@@ -65,7 +79,18 @@ nav ul li:hover{
 
 }
 
-
+.btn-second{
+    background-color:#ab8e62;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.btn-second:hover{
+    background-color:#9d7e50;
+    text-decoration: underline;
+    
+}
 
   @media only screen and (max-width: 1205px){
     .text-banner{
@@ -97,15 +122,46 @@ nav ul li:hover{
   }
 
   section{
-    margin: 20px 0 20px 0;
+    margin: 0 0 20px 0;
   }
 
 
-  .fanpage{
+  .fanpage {
+
     width: 400px;
     font-size: 45px;
     display: flex;
     justify-content: space-around;
-    margin: 100px 0 100px 0;
+    margin: 50px 0 50px 0;
+
   }
+  
+ .fanpage a{
+    color: #9d7e50;
+ }
+ .fanpage a:hover{
+    color: #d2a561;
+ }
+
  
+footer{
+    margin: 100px 0 0 0;
+    background: black;
+    padding: 30px;
+}
+.arrowUp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    bottom:20px;
+    cursor: pointer;
+    position: fixed;
+    border: 2px solid #9d7e50;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    color: #9d7e50;
+    text-decoration: none;
+
+}

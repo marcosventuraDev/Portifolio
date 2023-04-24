@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio </title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" href="./assets/img/logo/logo.png" type="image/x-icon">
 
     <!--fontawesome-->
     <script src="https://kit.fontawesome.com/99acd50083.js" crossorigin="anonymous"></script>
@@ -16,20 +17,20 @@
 </head>
 <body class="bg-dark text-white">
     
-    <header class=" d-flex container-lg position-relative p-4 ">
+    <header class=" d-flex container-lg position-relative p-2 ">
       
             <div>
-                <img src="" alt="Logo">
+                <img src="./assets/img/logo/logo.png" width="100" alt="Logo">
             </div>
-            <nav class=" position-absolute top-3">
+            <nav class=" position-absolute ">
                 
                     <ul>
                         
-                        <li><a>Início</a></li>
-                        <li><a>Sobre Mim</a></li>
-                        <li><a>Serviços</a></li>
-                        <li><a>Habilidades</a></li>
-                        <li><a>Contato</a></li>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#sobre">Sobre Mim</a></li>
+                        <li><a  href="#servicos">Serviços</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
                     </ul>
                 
                
@@ -44,8 +45,8 @@
             <div class="bannerImg"></div>
                 <div class="bannerCaption"></div>
                 <div class="text-banner" >
-                    <h4>Olá, meu nome é</h4>
-                    <h1>Marcos <span class="text-danger">Ventura</span></h1>
+                    <h4  >Olá, meu nome é</h4>
+                    <h1 id="sobre">Marcos <span class="text-danger">Ventura</span></h1>
                     <h2>Eu sou desenvovedor web</h2>
                 </div>
             
@@ -54,7 +55,7 @@
         
        
     </section>
-    <section>
+    <section  id="servicos">
         <div class="container">
             <h2 class="text-center">Sobre-Mim</h2>
             <h4>Desenvovedor web</h4>
@@ -68,7 +69,7 @@
                 e seja algo que possa ser transferida e ajudar outras pessoas que como eu amam tecnologia 
                 e desenvolver novas habilidades.
             </p>
-            <button type="button" class="btn btn-danger rounded-pill p-3 ">Vamos conversar</button>
+            <a  href="#"  class="btn-second rounded-pill p-3 ">Vamos conversar</a>
         </div>
 
         
@@ -76,9 +77,7 @@
 
     <section class="container mt-5 mb-5">
     
-
-  
-        <h2 class="text-center">Nossos Serviços</h2>
+        <h2 class="text-center" >Nossos Serviços</h2>
      
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
@@ -93,7 +92,7 @@
                      soluta nihil reiciendis repellat, sapiente amet aliquid.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-center">
-                 <button class="btn btn-danger rounded-pill ">Leia mais</button>
+                 <a  href="#" class="btn-second  rounded-pill ">Leia mais</a>
                 </div>
               </div>
             </div>
@@ -109,7 +108,7 @@
                      soluta nihil reiciendis repellat, sapiente amet aliquid.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-center">
-                 <button class="btn btn-danger  rounded-pill">Leia mais</button>
+                 <a  href="#" class="btn-second   rounded-pill">Leia mais</a>
                 </div>
               </div>
             </div>
@@ -125,7 +124,7 @@
                      soluta nihil reiciendis repellat, sapiente amet aliquid.</p>
                 </div>
                 <div class="card-footer d-flex justify-content-center">
-                 <button class="btn btn-danger rounded-pill ">Leia mais</button>
+                 <a href="#"  class="btn-second  rounded-pill ">Leia mais</a>
                 </div>
               </div>
             </div>
@@ -134,34 +133,100 @@
            
     </section>
       
-    <section class="container">
+    <section class="container"id="projetos">
       
             <h3>Contate minha equipe para a gente criar um bonito site para você</h3>
-            <button type="button" class="btn btn-danger rounded-pill p-3">Enviar mensagem</button>
+            <a href="#"  type="button" class="btn-second  rounded-pill p-3">Enviar mensagem</a>
       
+    </section>
+    <section class="container mt-5 mb-5">
+    
+
+  
+        <h2 class="text-center">Meus Projetos</h2>
+     
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Desenvovedor web</h3>
+                  <p class="card-text">Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit.
+                     Cum quo sint unde eius perferendis adipisci, 
+                     consectetur illo omnis sequi eos id enim maxime 
+                     soluta nihil reiciendis repellat, sapiente amet aliquid.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                 <a class="btn-second  rounded-pill ">Leia mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Desenvovedor web</h3>
+                  <p class="card-text">Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit.
+                     Cum quo sint unde eius perferendis adipisci, 
+                     consectetur illo omnis sequi eos id enim maxime 
+                     soluta nihil reiciendis repellat, sapiente amet aliquid.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                 <a class="btn-second   rounded-pill">Leia mais</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Desenvovedor web</h3>
+                  <p class="card-text">Lorem ipsum dolor sit, 
+                    amet consectetur adipisicing elit.
+                     Cum quo sint unde eius perferendis adipisci, 
+                     consectetur illo omnis sequi eos id enim maxime 
+                     soluta nihil reiciendis repellat, sapiente amet aliquid.</p>
+                </div>
+                <div class="card-footer d-flex justify-content-center">
+                 <a href="#"  class="btn-second  rounded-pill ">Leia mais</a>
+                </div>
+              </div>
+            </div>
+            
+
+           
     </section>
 
 
        
  
 
-    <footer class="container ">
-      
-                <h3>Marcos Ventura</h3>
+    <footer id="contato">
+        <div class="container">
+            <h3>Marcos Ventura</h3>
                 <p>Para mais informação sobre mim <a href="#">clica aqui</a></p>
             <div class="fanpage">
                 
-                    <i class="fab fa-facebook"></i>
+                    <a  href="#"><i class="fab fa-facebook"></i></a>
                
-                    <i class="fab fa-instagram"></i>
+                    <a  href="#"><i class="fab fa-instagram"></i></a>
                 
-                    <i class="fab fa-github"></i>
+                    <a  href="#"><i class="fab fa-github"></i></a>
                
 
             </div>
+
+            <p class="text-center">Todos os direitos reservados <strong>&copy;MarcosVentura</strong></p>
+        </div>
+      
+                
    
 
     </footer>
+
+    <div ><a href="#"class="arrowUp"><i class="fas fa-arrow-up"></i></a></div>
 
     
 </body>
